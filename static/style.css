@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  font-family: 'Barlow', sans-serif;
+}
+
+img {
+  width: 20vw;
+  height: 10vh;
+}
+
+.material-icons-outlined {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+  color: #451F55;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+h1 {
+  color: #451F55;
+}
+
+h2 {
+  color: #ffffff;
+  text-shadow: revert;
+}
+
+h3 {
+  margin-top: 115px;
+  color: #451F55;
+}
+
+/* Header */
+#header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 8vh;
+  margin: -10px -20px 20px -10px;
+  background-color: #451F55;
+  border: 1px solid #451F55;
+  color: #ffffff;
+}
+
+/* Main */
+#main {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Generate password section */
+#filled-button, #unfilled-button {
+  width: 7vw;
+  padding: 8px;
+  border: 2px solid #451F55;
+  font-size: 12px;
+}
+
+#filled-button {
+  background-color: #451F55;
+  color: #ffffff;
+}
+
+#unfilled-button {
+  background-color: transparent;
+  color: #451F55;
+}
+
+#pwd {
+  width: 35vw;
+  height: 10vh;
+  margin-top: 15px;
+  padding-top: 50px;
+  background-color: #CFC3D4;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#displayed-pwd {
+  display: none;
+}
+
+#scripted-pwd {
+  color: #451F55;
+  font-size: 12px;
+}
+
+/* GPDR section */
+#gpdr-ul {
+  width: 31vw;
+  height: 15vh;
+  margin-top: 72px;
+  padding: 10px 0 0 50px;
+  background-color: #CFC3D4;
+  border-radius: 10px;
+}
+
+.gpdr-li {
+  list-style: url('../static/done_black_24dp.svg');
+  color: #451F55;
+}
+
+/* Stats section */
+#stats {
+  width: 80vw;
+  height: 20vh;
+  margin: 15px 0 0 130px;
+  padding-left: 10px;
+  background-color: #CFC3D4;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.stats-li {
+  list-style: none;
+}
+
+/* Footer */
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  bottom: 0;
+  position: absolute;
+  margin: 0 -20px -20px -10px;
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+  color: #451F55;
+  background-color: #CFC3D4;
+}
+
+#github-link {
+  color: #451F55;
+}
